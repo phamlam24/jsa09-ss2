@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+/* font-family: 'Commissioner', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 50px;
+    margin: 0 auto;
+}
+nav{
+    margin-left: 10%;
+}
+nav .max-width{
+    display: flex;
+    justify-content: space-around;
+}
+nav .link-menu a{
+    position: relative;
+    display: inline-block;
+    padding: 0 30px;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    text-decoration: none;
+}
+
+.max-width .logo img{
+    height: 80px;
+    width: 80px;
+}
+
+.max-width .link-menu{
+    width: 800px;
+    line-height: 50px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.max-width .link-menu a{
+    color: white;
+    font-family: 'Commissioner', sans-serif;
+    font-size: 20px;
+}
+
+.home-menu{
+    background-image:  url("./image/hero.jpg");
+    height: 700px;
+    background-size: cover;
+}
+
+/* .max-width .title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+} */
+
+.content-menu{
+    width: 700px;
+    height: 200px;
+    margin-left: 10%;
+    margin-top: 8%;
+    color: white;
+    position: relative;
+}
+
+.content-menu .text p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 150;
+    line-height: 60px;
+}
+
+.content-menu .multi-button{
+    width: 320px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.content-menu .multi-button button{
+    width: 150px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background: none;
+    border: solid 2px orange;
+    border-radius: 30px;
+}
+#button1{
+    background-color: orange;
+    color: white;
+}
+#button2{
+    color: orange;
+}
